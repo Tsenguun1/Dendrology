@@ -715,3 +715,46 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     100%  {bottom:7px;}
 }
 /*========================Thank you=================
+
+
+/* Zorigoogiin bichsen css */
+.row{
+    display: flex;
+    flex-direction: column;
+   
+}
+.row img{
+    width:35rem;
+    height: 30rem;
+}
+.treeCard{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    margin-bottom: 4rem;
+    row-gap: 4rem;
+    column-gap: 3rem;
+    margin-left: 1rem;
+   
+     /* Top border, 1px solid, blue color */
+
+}
+
+.treeCard p{
+    text-justify: inter-word;    
+}
+.treeCardContainer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.treeCardContainer h2{
+    margin: 0 auto 3rem auto;
+    font-weight: bold;
+    padding: 3rem;
+   
+}
